@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IdeaToMarket</string>
+    <string name="about">blabla</string>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#99ff00</color>
+    <color name="black">#000000</color>
+    <color name="purple">#7400b6</color>
+</resources>

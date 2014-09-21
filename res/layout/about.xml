@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+    <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:text="@string/about" android:id="@+id/textViewInfo"/>
+    <Button android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:id="@+id/buttonPrev"
+            android:layout_width="100dp" android:layout_height="50dp"
+            android:text="Prev"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:background="@color/green"
+            />
+
+</RelativeLayout>
