@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MyActivity extends Activity {
     /**
@@ -13,11 +14,26 @@ public class MyActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        initialize();
     }
 
-    public void about(View v)
-    {
+    public void initialize() {
+        Button abt = (Button) findViewById(R.id.buttonAbout);
+        abt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                about(v);
+            }
+        });
+    }
+
+    public void about(View v) {
         Intent i = new Intent(getApplicationContext(), AboutActivity.class);
+        startActivity(i);
+    }
+
+    public void idea(View v) {
+        Intent i = new Intent(getApplicationContext(), IdeaActivity.class);
         startActivity(i);
     }
 }

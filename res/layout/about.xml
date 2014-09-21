@@ -5,7 +5,7 @@
                 android:layout_height="match_parent"
                 android:background="@color/white">
     <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
-              android:text="@string/about" android:id="@+id/textViewInfo"/>
+              android:text="@string/about" android:id="@+id/buttonPrev2"/>
     <Button android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_margin="10dp"

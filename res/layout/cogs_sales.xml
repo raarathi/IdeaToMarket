@@ -4,7 +4,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/white">
-    <ImageView
+</RelativeLayout>
+
+    <!--<ImageView
             android:layout_marginTop="12.5dp"
             android:layout_width="225dp"
             android:layout_height="225dp"
@@ -49,4 +51,4 @@
             android:text="Contact Us"
             android:id="@+id/button3" android:layout_gravity="center_horizontal"/>
 
-</RelativeLayout>
+</RelativeLayout> -->
