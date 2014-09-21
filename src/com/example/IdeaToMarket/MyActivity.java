@@ -22,12 +22,12 @@ public class MyActivity extends Activity {
         abt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                about(v);
+                about();
             }
         });
     }
 
-    public void about(View v) {
+    public void about() {
         Intent i = new Intent(getApplicationContext(), AboutActivity.class);
         startActivity(i);
     }

@@ -4,17 +4,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/white">
-    <TextView android:layout_width="fill_parent" android:layout_height="fill_parent"
-              android:text="@string/about" android:id="@+id/buttonPrev2"/>
-    <Button android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_margin="10dp"
+
+    <Button
             android:id="@+id/buttonPrev"
             android:layout_width="100dp" android:layout_height="50dp"
             android:text="Prev"
             android:textSize="25dp"
             android:textColor="@color/black"
             android:background="@color/green"
-            />
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about"
+            android:id="@+id/textViewAbout" android:layout_alignParentTop="true"/>
 
 </RelativeLayout>

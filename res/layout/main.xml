@@ -11,7 +11,7 @@
             android:layout_height="225dp"
             android:id="@+id/imageView" android:layout_gravity="center_horizontal" android:layout_above="@+id/buttonAbout"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/IdeaToMarket_Logo"/>
+            android:src="@drawable/ideatomarket_logo_1"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
